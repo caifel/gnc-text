@@ -1,4 +1,4 @@
-# GNC COMPONENT
+# GNC TEXT
 
 Solves a very recurrent issue in a very straight forward way, some of the characteristics of it are:
 
@@ -16,22 +16,22 @@ _Note: If needed some screenshots can be included in here._
 As simple as:
 
 ```sh
-$ npm install gnc-component --save
+$ npm install gnc-text --save
 ```
 or with **"yarn"**
 ```sh
-$ yarn add gnc-component
+$ yarn add gnc-text
 ```
 ### Usage
 
 ```js
 import React from 'react';
-import GncComponent from 'gnc-component';
+import GncText from 'gnc-text';
 ```
 
 ```html
 ...
-    <GncComponent
+    <GncText
         prop1
         prop2={ <CustomComponent/> }
     />

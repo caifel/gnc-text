@@ -1,7 +1,7 @@
 {
-  "name": "gnc-component",
-  "version": "1.1.5",
-  "description": "Template for React Components",
+  "name": "gnc-text",
+  "version": "1.0.1",
+  "description": "Text componen with similar features that React Native's Text",
   "main": "./lib/index.js",
   "files": [
     "lib",
@@ -15,18 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GenDecoder/gnc-component.git"
+    "url": "git+https://github.com/GenDecoder/gnc-text.git"
   },
   "keywords": [
     "React",
-    "Component"
+    "Component",
+    "Overflow",
+    "Text",
+    "Elipsis"
   ],
   "author": "Mario Victor Medrano Maldonado",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GenDecoder/gnc-component/issues"
+    "url": "https://github.com/GenDecoder/gnc-text/issues"
   },
-  "homepage": "https://github.com/GenDecoder/gnc-component#readme",
+  "homepage": "https://github.com/GenDecoder/gnc-text#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
