@@ -1,0 +1,39 @@
+.main-banner {
+    align-items: center;
+    background-color: $pColor;
+    color: $pTextColor;
+    display: flex;
+    height: 300px;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+
+    >.main-banner-hero {
+        flex: 1;
+        padding-right: 1rem;
+        >.main-banner-hero-title {
+            font-family: $stressFontFamily;
+            font-size: 2rem;
+        }
+        >.main-banner-hero-description {
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+    }
+    >.main-banner-image {
+        background-image: url('https://image.freepik.com/vector-gratis/libro-blanco_1053-242.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        flex: 1;
+        height: 100%;
+        position: relative;
+        >.main-banner-image-mask {
+            background-color: $pLightColor;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            opacity: 0.1;
+            top: 0;
+            width: 100%;
+        }
+    }
+}

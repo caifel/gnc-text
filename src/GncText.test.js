@@ -1,5 +1,5 @@
 import React from 'react';
-import MyComponent from './MyComponent';
+import GncText from './GncText';
 import renderer from 'react-test-renderer';
 
 const sum = (a, b) => {
